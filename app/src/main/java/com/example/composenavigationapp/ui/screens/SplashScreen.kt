@@ -1,4 +1,4 @@
-package com.examplecomposenavigationapp.ui.screens
+package com.example.composenavigationapp.ui.screens
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.CircularProgressIndicator

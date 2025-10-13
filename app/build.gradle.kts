@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.examplecomposenavigationapp"
+    namespace = "com.example.composenavigationapp"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.examplecomposenavigationapp"
+        applicationId = "com.example.composenavigationapp"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

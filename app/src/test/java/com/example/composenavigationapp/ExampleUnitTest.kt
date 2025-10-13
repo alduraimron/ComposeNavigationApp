@@ -1,4 +1,4 @@
-package com.examplecomposenavigationapp
+package com.example.composenavigationapp
 
 import org.junit.Test
 

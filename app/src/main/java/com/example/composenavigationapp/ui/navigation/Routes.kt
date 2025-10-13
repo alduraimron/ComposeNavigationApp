@@ -1,4 +1,4 @@
-package com.examplecomposenavigationapp.ui.navigation
+package com.example.composenavigationapp.ui.navigation
 
 object Routes {
     const val SPLASH = "splash"

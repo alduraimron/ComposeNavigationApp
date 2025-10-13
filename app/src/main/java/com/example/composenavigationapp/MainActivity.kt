@@ -1,11 +1,11 @@
-package com.examplecomposenavigationapp
+package com.example.composenavigationapp
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.navigation.compose.rememberNavController
-import com.examplecomposenavigationapp.ui.theme.ComposeNavigationAppTheme
-import com.examplecomposenavigationapp.ui.navigation.RootNavGraph
+import com.example.composenavigationapp.ui.theme.ComposeNavigationAppTheme
+import com.example.composenavigationapp.ui.navigation.RootNavGraph
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

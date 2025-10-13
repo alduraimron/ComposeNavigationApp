@@ -1,10 +1,13 @@
-package com.examplecomposenavigationapp.ui.navigation
+package com.example.composenavigationapp.ui.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.navigation
 import androidx.navigation.compose.composable
+import com.example.composenavigationapp.ui.screens.PlaceholderHomeScreen
+import com.example.composenavigationapp.ui.screens.SplashScreen
+
 @Composable
 fun RootNavGraph(
     navController: NavHostController
@@ -31,7 +34,7 @@ fun RootNavGraph(
             route = Routes.MAIN_GRAPH
         ) {
             // Untuk sementara, definisikan minimal satu layar agar bisa dicoba
-            composable(Routes.HOME) { PlaceholderHomeScrern() }
+            composable(Routes.HOME) { PlaceholderHomeScreen() }
             // Nanti di Langkah 3+ kita tambah: DETAIL, PROFILE, SETTINGS, ADD
         }
     }
