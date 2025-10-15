@@ -155,7 +155,7 @@ private fun MainNavHost(navController: NavHostController) {
             val id = backStack.arguments?.getString("id")
             DetailScreen(navController, id)
         }
-        composable(Routes.PROFILE) { ProfileScreen }
+        composable(Routes.PROFILE) { ProfileScreen() }
         composable(Routes.SETTINGS) { SettingsScreen() }
         composable(Routes.ADD) { AddScreen(navController) }
     }
